@@ -1,6 +1,5 @@
 import 'package:crypto_flutter_app/features/crypto_list/widgets/widgets.dart';
-import 'package:crypto_flutter_app/repositories/crypto_coin/crypto_coin_repository.dart';
-import 'package:crypto_flutter_app/repositories/crypto_coin/models/crypto_coin.dart';
+import 'package:crypto_flutter_app/repositories/crypto_coins/crypto_coins.dart';
 import 'package:flutter/material.dart';
 
 class CryptoListScreen extends StatefulWidget {
