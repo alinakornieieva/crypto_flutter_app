@@ -11,3 +11,9 @@ class CryptoListLoaded extends CryptoListState {
 
   CryptoListLoaded({required this.cryptoList});
 }
+
+class CryptoListLoadingFailed extends CryptoListState {
+  final Object? exception;
+
+  CryptoListLoadingFailed({required this.exception});
+}
